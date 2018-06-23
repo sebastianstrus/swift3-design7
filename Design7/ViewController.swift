@@ -21,12 +21,10 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        imageView.layer.borderWidth = 1
-        imageView.layer.borderColor = UIColor(red: 0, green: 0, blue: 1, alpha: 1).cgColor
+        imageView.layer.borderWidth = 2
+        imageView.layer.borderColor = UIColor(red: 13/255, green: 199/255, blue: 230/255, alpha: 1).cgColor
         
-        prevBtn.layer.borderWidth = 1
         prevBtn.layer.cornerRadius = 5
-        nextBtn.layer.borderWidth = 1
         nextBtn.layer.cornerRadius = 5
         
     }
